@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello SliderController!{% endblock %}
+
+{% block body %}
+{% for row in data %}
+    <div>
+    <h4>{{row.name}}</h4>
+    <h4>{{row.first_name}}</h4>
+    <h4>{{row.mail}}</h4>
+    <h4>{{row.password}}</h4>
+    </div>
+{% endfor %}
+{% endblock %}
+$form
